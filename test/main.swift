@@ -6,7 +6,10 @@
 //  Copyright © 2016年 zx5833. All rights reserved.
 //
 
-import Foundation
+import Cocoa
 
-print("Hello, World!")
+func add(a x:Int,b y:Int,c z:Int){
+    print("\(x)+\(y)+\(z)=\(x+y+z)")
+}
+add(a:0,b:20,c:30)
 
